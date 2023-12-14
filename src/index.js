@@ -11,7 +11,7 @@ const client = new TextServiceClient({
   authClient: new GoogleAuth().fromAPIKey(API_KEY),
 });
 
-const prompt = "What is my name?";
+const prompt = "Does apple keep the doctor away?";
 
 client
   .generateText({
